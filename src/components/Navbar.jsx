@@ -178,7 +178,7 @@ const Navbar = () => {
               Github Profile
             </GithubButton>
             <GithubButton
-              href={Bio.github}
+              href={Bio.leetcode}
               target="_Blank"
               style={{
                 background: theme.primary,
