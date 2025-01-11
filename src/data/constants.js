@@ -231,7 +231,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://csi.coep.org.in/csi_logo.png",
+    img: "https://i.postimg.cc/6qbCkLvz/unnamed.png",
     role: "Core Team Member, Software Developer",
     company: "Computer Society of India (CSI) Club",
     date: "Oct 2023 - Oct 2024",
@@ -309,6 +309,31 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "Kisan Mitra",
+    date: "Aug 2024",
+    description:
+      "An AI-driven platform for crop yield prediction, disease detection, and fertilizer recommendations. Features include multilingual website support (English, Hindi, Punjabi, Gujarati, and Marathi), Python-based voice bot for speech-to-text and text-to-speech, real-time community support via WebSocket, and live market prices with downloadable PDF reports.",
+    image:
+      "https://i.postimg.cc/qRt1YFDh/Screenshot-from-2024-11-24-21-55-00.png",
+    tags: ["ReactJS", "NodeJS", "Express", "MongoDB", "Python"],
+    category: "web app",
+    github: "https://github.com/Amanw-25/Kissan-Mitra",
+    link: "https://kissan-mitra-app.nxtdev.in/",
+  },
+  {
+    id: 2,
+    title: "VitalLink",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "Developed a dynamic appointment booking system with React, Node.js, and MongoDB. The app allows users to view their upcoming appointments, retrieve doctor details, and manage bookings effortlessly. Features include a responsive UI, real-time data fetching, and secure authentication for user-specific data access.",
+    image: "https://i.postimg.cc/sg4g1fnC/Screenshot-from-2025-01-12-00-27-39.png", 
+    tags: ["React", "Node.js", "MongoDB", "REST API", "Frontend Development"],
+    category: "web app",
+    github: "https://github.com/Amanw-25/VitalLink", 
+    link: "https://vitals-link.vercel.app/", 
+  },
+  {
+    id: 3,
     title: "CII Website",
     date: "Oct 2024",
     description:
@@ -318,23 +343,10 @@ export const projects = [
     tags: ["ReactJS", "NodeJS", "Express", "MongoDB"],
     category: "web app",
     github: "https://github.com/Amanw-25/CII-Webiste",
-    webapp: "https://cii-delta.vercel.app/",
+    link: "https://cii-delta.vercel.app/",
   },
   {
-    id: 1,
-    title: "Kisan Mitra",
-    date: "Aug 2024",
-    description:
-      "An AI-driven platform for crop yield prediction, disease detection, and fertilizer recommendations. Features include multilingual website support (English, Hindi, Punjabi, Gujarati, and Marathi), Python-based voice bot for speech-to-text and text-to-speech, real-time community support via WebSocket, and live market prices with downloadable PDF reports.",
-    image:
-      "https://i.postimg.cc/qRt1YFDh/Screenshot-from-2024-11-24-21-55-00.png",
-    tags: ["ReactJS", "NodeJS", "Express", "MongoDB", "Python"],
-    category: "web app",
-    github: "https://github.com/Amanw-25/kissanmitra",
-    webapp: "https://kissan-mitra-app.nxtdev.in/",
-  },
-  {
-    id: 2,
+    id: 4,
     title: "Travel-Nest",
     date: "June 2024",
     description:
@@ -344,10 +356,10 @@ export const projects = [
     tags: ["NodeJS", "ExpressJS", "MongoDB", "JavaScript", "EJS"],
     category: "web app",
     github: "https://github.com/Amanw-25/Wander-Stay",
-    webapp: "https://travel-plan-jqt4.onrender.com/listings",
+    link: "https://travel-plan-jqt4.onrender.com/listings",
   },
   {
-    id: 3,
+    id: 5,
     title: "Sustainify",
     date: "Nov 2023",
     description:
@@ -356,11 +368,11 @@ export const projects = [
       "https://i.postimg.cc/kg4KfbpD/Screenshot-from-2024-11-24-21-58-18.png",
     tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "RESTful API"],
     category: "web app",
-    github: "https://github.com/Amanw-25",
-    webapp: "https://amanwairagkarportfolio.netlify.app/",
+    github: "https://github.com/Amanw-25/Sustainify",
+    link: "https://github.com/Amanw-25/Sustainify",
   },
   {
-    id: 4,
+    id: 6,
     title: "Innovation Carnival Website",
     date: "Oct 2023 - Feb 2024",
     description:
@@ -370,19 +382,8 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "Razorpay"],
     category: "web app",
     github: "https://github.com/Amanw-25/InnovationCarnival-3.0",
-    webapp: "https://innovationcarnival.in/",
+    link: "https://innovationcarnival.in/",
   },
-  {
-    id: 5,
-    title: "Simon Says Game",
-    date: "Sept 2023",
-    description:
-      "Created an interactive Simon Says Game using HTML, CSS, and JavaScript. The game challenges users to replicate sequences of colors and sounds, enhancing memory and reaction skills. Features include progressively increasing difficulty, intuitive UI, and responsive design for seamless gameplay on different devices.",
-    image:
-      "https://i.postimg.cc/PqD4QDCY/Screenshot-from-2024-11-24-22-13-32.png",
-    tags: ["HTML", "CSS", "JavaScript", "Game Development"],
-    category: "game app",
-    github: "https://github.com/Amanw-25/Simon-Says-Game",
-    webapp: "https://amanwairagkarportfolio.netlify.app/",
-  },
+
+  
 ];

@@ -49,8 +49,7 @@ function App() {
               <Experience />
             </Wrapper>
             <Projects />
-            {/* Add Certificate Component Below Projects */}
-            <Certificate />  {/* Display Certificates after Projects */}
+            <Certificate />
             <Wrapper>
               <Education />
               <Contact />

@@ -113,6 +113,9 @@ const ProjectCard = ({ project }) => {
       <Button href={project.github} target="_blank">
         View Code
       </Button>
+      <Button href={project.link} target="_blank">
+        See Live
+      </Button>
     </Card>
   );
 };
