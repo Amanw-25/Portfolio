@@ -310,7 +310,6 @@ export const projects = [
   {
     id: 1,
     title: "Kisan Mitra",
-    date: "Aug 2024",
     description:
       "An AI-driven platform for crop yield prediction, disease detection, and fertilizer recommendations. Features include multilingual website support (English, Hindi, Punjabi, Gujarati, and Marathi), Python-based voice bot for speech-to-text and text-to-speech, real-time community support via WebSocket, and live market prices with downloadable PDF reports.",
     image:
@@ -321,9 +320,20 @@ export const projects = [
     link: "https://kissan-mitra-app.nxtdev.in/",
   },
   {
+    id: 5,
+    title: "Sustainify",
+    description:
+      "A sustainable living guide offering eco-friendly product recommendations, personalized tips, and carbon footprint tracking. Uses ReactJS, NodeJS, MongoDB, and Mistral AI (LLM) for intelligent user-specific recommendations. Features secure authentication with JWT and dynamic content updates via RESTful APIs.",
+    image:
+      "https://i.postimg.cc/g0zbzVR4/Screenshot-from-2025-03-01-18-19-57.png",
+    tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "RESTful API"],
+    category: "web app",
+    github: "https://github.com/Amanw-25",
+    link: "https://sustainify-v2.vercel.app/",
+  },
+  {
     id: 2,
     title: "VitalLink",
-    date: "Dec 2024 - Jan 2025",
     description:
       "Developed a dynamic appointment booking system with React, Node.js, and MongoDB. The app allows users to view their upcoming appointments, retrieve doctor details, and manage bookings effortlessly. Features include a responsive UI, real-time data fetching, and secure authentication for user-specific data access.",
     image: "https://i.postimg.cc/sg4g1fnC/Screenshot-from-2025-01-12-00-27-39.png", 
@@ -335,7 +345,6 @@ export const projects = [
   {
     id: 3,
     title: "CII Website",
-    date: "Oct 2024",
     description:
       "Developed the official website for a government and industry collaboration event, focusing on promoting innovation and business partnerships. Built with ReactJS for a dynamic and responsive user experience, with a backend powered by NodeJS, Express, and MongoDB for efficient data management. Key features include seamless navigation, real-time updates, and accessibility for multilingual users.",
     image:
@@ -348,7 +357,6 @@ export const projects = [
   {
     id: 4,
     title: "Travel-Nest",
-    date: "June 2024",
     description:
       "A hotel discovery platform with location and amenities search. Built with JS and EJS for frontend and templating, and integrated backend functionality using NodeJS, ExpressJS, and MongoDB. Features include Google Maps API integration and RESTful APIs for real-time reviews and data.",
     image:
@@ -359,22 +367,8 @@ export const projects = [
     link: "https://travel-plan-jqt4.onrender.com/listings",
   },
   {
-    id: 5,
-    title: "Sustainify",
-    date: "Nov 2023",
-    description:
-      "A sustainable living guide offering eco-friendly product recommendations, personalized tips, and carbon footprint tracking. Uses ReactJS, NodeJS, MongoDB, and Mistral AI (LLM) for intelligent user-specific recommendations. Features secure authentication with JWT and dynamic content updates via RESTful APIs.",
-    image:
-      "https://i.postimg.cc/kg4KfbpD/Screenshot-from-2024-11-24-21-58-18.png",
-    tags: ["ReactJS", "NodeJS", "MongoDB", "JWT", "RESTful API"],
-    category: "web app",
-    github: "https://github.com/Amanw-25/Sustainify",
-    link: "https://github.com/Amanw-25/Sustainify",
-  },
-  {
     id: 6,
     title: "Innovation Carnival Website",
-    date: "Oct 2023 - Feb 2024",
     description:
       "Built a website for Innovation Carnival 3.0 with HTML, CSS, and JavaScript, enabling young innovators to showcase their projects. Integrated Razorpay payment gateway for smooth event registration and participation.",
     image:
