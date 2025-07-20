@@ -4,72 +4,90 @@ export const Bio = {
   description:
     "I am a passionate and innovative developer dedicated to crafting efficient and impactful solutions. With a strong foundation in computer science and a zeal for sustainability, I aim to bridge the gap between technology and real-world challenges.",
   github: "https://github.com/Amanw-25",
-  resume:
-    "https://drive.google.com/file/d/15men2_UyO3Yx3bt2sRVyJs5tut6h4jRA/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/19l7_9cjqWnvwfETc8y4d9M4Lr4AhcTQc/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/amanwairagkar/",
-  leetcode:"https://leetcode.com/u/amanw-25/"
+  leetcode: "https://leetcode.com/u/amanw-25/",
   // twitter: null, // No Twitter details in your resume
   // insta: null, // No Instagram details in your resume
   // facebook: null // No Facebook details in your resume
 };
 
-
 export const certificates = [
+  {
+    id: 1,
+    name: "NPTEL - Computer Networks",
+    issuer: "NPTEL",
+    link: "https://drive.google.com/file/d/1imyqD_DOfYoOS9gtQMDASjiE722-r6uY/view?usp=sharing",
+    image:
+      "https://i.postimg.cc/Bbf6zgyX/Screenshot-from-2025-07-20-21-27-54.png",
+  },
+  {
+    id: 1,
+    name: "NPTEL - Database Management Systems",
+    issuer: "NPTEL",
+    link: "https://drive.google.com/file/d/12rphWvEequ9rpbNpck35vL-ZbtGAigpy/view?usp=sharing",
+    image:
+      "https://i.postimg.cc/TPZYy0TC/Screenshot-from-2025-07-20-21-28-29.png",
+  },
   {
     id: 1,
     name: "Cisco Networking Certification",
     issuer: "Cisco",
     link: "https://drive.google.com/file/d/1DwVDA7zPLYulRwhRQR0Bb-X6ca4cYEMT/view?usp=sharing",
-    image: "https://i.postimg.cc/fbw0P0L6/Screenshot-from-2024-11-24-23-11-24.png", 
+    image:
+      "https://i.postimg.cc/fbw0P0L6/Screenshot-from-2024-11-24-23-11-24.png",
   },
   {
     id: 2,
     name: "Web Developer at GDSC",
     issuer: "Google",
     link: "https://drive.google.com/file/d/1m0vcjyLOXrYVudgcPpBhrQS-PfKeJ6H3/view?usp=sharing",
-    image: "https://i.postimg.cc/JhvHzYKW/Screenshot-from-2024-11-24-23-18-00.png",
+    image:
+      "https://i.postimg.cc/JhvHzYKW/Screenshot-from-2024-11-24-23-18-00.png",
   },
   {
     id: 3,
     name: "Full Stack Web Development",
     issuer: "Apna College",
     link: "https://drive.google.com/file/d/1-ME_mlomHNGSFxvJUfvsFY0TnIwyMWSk/view?usp=sharing",
-    image: "https://i.postimg.cc/Bb18FTY1/Screenshot-from-2024-11-24-23-12-22.png", 
+    image:
+      "https://i.postimg.cc/Bb18FTY1/Screenshot-from-2024-11-24-23-12-22.png",
   },
   {
     id: 4,
     name: "Solution Challenge",
     issuer: "Google",
     link: "https://drive.google.com/file/d/1z-_DSG31rfiUTfr_1SdIPzQF_Oq2cn40/view?usp=sharing",
-    image: "https://i.postimg.cc/wj9hCr4f/Screenshot-from-2024-11-24-23-15-36.png", 
+    image:
+      "https://i.postimg.cc/wj9hCr4f/Screenshot-from-2024-11-24-23-15-36.png",
   },
   {
     id: 5,
     name: "C++ Training",
     issuer: "IIT Bombay",
     link: "https://drive.google.com/file/d/1U3057RPt9wVO8-DiRMFsxNaQUyVPqZQU/view?usp=sharing",
-    image: "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png", 
+    image:
+      "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png",
   },
   {
     id: 6,
     name: "Java Training",
     issuer: "IIT Bombay",
     link: "https://drive.google.com/file/d/1mG5Y8ECk6o2ItUTwabShHMi-4YZoFObC/view?usp=sharing",
-    image: "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png", 
+    image:
+      "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png",
   },
   {
     id: 7,
     name: "Python",
     issuer: "IIT Bombay",
     link: "https://drive.google.com/file/d/1yZw2OjNVcjp0UGJZrlxJJynv7PItS5Nt/view?usp=sharing",
-    image: "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png", 
+    image:
+      "https://i.postimg.cc/BbY0JkcT/Screenshot-from-2024-11-24-23-25-04.png",
   },
-
 
   // Add more certificates as needed
 ];
-
-
 
 export const skills = [
   {
@@ -195,17 +213,41 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 4,
+    id: 1,
+    img: "https://i.postimg.cc/DmVztcMS/Eventory.jpg",
+    role: "Full Stack Developer Intern",
+    company: "Eventory",
+    date: "July 2025 - Present",
+    desc: "Contributing to the development of scalable web applications by building and maintaining frontend and backend modules. Collaborating with cross-functional teams to deliver efficient, maintainable code and improve overall user experience. Involved in code reviews, API integrations, and performance optimization.",
+    skills: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redux",
+      "JavaScript",
+      "REST APIs",
+      "Git",
+    ],
+  },
+  {
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7qnkckTd9LPqz39j_JKPTat85c_ICcoVLA&s",
     role: "Virtual Intern - Networking",
     company: "Cisco",
     date: "Aug 2024 - Sep 2024",
     desc: "Participated in Cisco's Virtual Internship program focusing on advanced networking concepts. Gained hands-on experience with network configuration, routing protocols, and troubleshooting techniques. Completed tasks and projects involving real-world network design simulations and optimization strategies.",
-    skills: ["Networking", "Routing Protocols", "Network Design", "Troubleshooting", "Cisco Packet Tracer"]
-  }
-  ,
+    skills: [
+      "Networking",
+      "Routing Protocols",
+      "Network Design",
+      "Troubleshooting",
+      "Cisco Packet Tracer",
+    ],
+  },
   {
-    id: 1,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJW2h0_CF4v8csIaZDmssWDFMh9T7ROtruJw&s",
     role: "Web Developer Intern",
     company: "Youngovator",
@@ -214,7 +256,7 @@ export const experiences = [
     skills: ["HTML", "CSS", "JavaScript", "Razorpay", "Web Development"],
   },
   {
-    id: 2,
+    id: 4,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKIA20Yvir6-L_3K4piH9jCKpLxgXgHgQYwg&s",
     role: "Frontend Developer Intern",
     company: "Code Clause",
@@ -230,7 +272,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     img: "https://i.postimg.cc/6qbCkLvz/unnamed.png",
     role: "Core Team Member, Software Developer",
     company: "Computer Society of India (CSI) Club",
@@ -250,7 +292,7 @@ export const experiences = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
     role: "Co-Lead, Web Developer",
     company: "Google Developers Student Club (GDSC)",
@@ -266,14 +308,13 @@ export const experiences = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
     role: "Open Source Contributor",
     company: "GirlScript Summer of Code",
     date: "Oct 2024",
     desc: "Successfully contributed to HotWax by submitting a pull request that implemented key features or fixes, which was reviewed and merged into the codebase. Collaborated with maintainers and followed open-source best practices.",
   },
-  
 ];
 
 export const education = [
@@ -282,7 +323,7 @@ export const education = [
     img: "https://content.jdmagicbox.com/comp/bhopal/68/0755p755std90468/catalogue/acropolis-institute-of-technology-and-research-campus-ratibad-bhopal-engineering-colleges-3dmql4g.jpg",
     school: "Acropolis Institute of Technology & Research",
     date: "Nov 2022 - Jun 2026",
-    grade: "CGPA: 8.20",
+    grade: "CGPA: 8.30",
     desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Acropolis Institute of Technology & Research. I have completed 4 semesters with a CGPA of 8.20. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. I am also actively involved in the Google Developers Student Club (GDSC), where I work on various projects with a talented team of developers.",
     degree: "Bachelor of Technology - BTech, Computer Engineering",
   },
@@ -317,7 +358,7 @@ export const projects = [
     tags: ["ReactJS", "NodeJS", "Express", "MongoDB", "Python"],
     category: "web app",
     github: "https://github.com/Amanw-25/Kissan-Mitra",
-    link: "https://kissan-mitra-app.nxtdev.in/",
+    link: "https://kissan-mitra.vercel.app/",
   },
   {
     id: 5,
@@ -336,11 +377,12 @@ export const projects = [
     title: "VitalLink",
     description:
       "Developed a dynamic appointment booking system with React, Node.js, and MongoDB. The app allows users to view their upcoming appointments, retrieve doctor details, and manage bookings effortlessly. Features include a responsive UI, real-time data fetching, and secure authentication for user-specific data access.",
-    image: "https://i.postimg.cc/sg4g1fnC/Screenshot-from-2025-01-12-00-27-39.png", 
+    image:
+      "https://i.postimg.cc/sg4g1fnC/Screenshot-from-2025-01-12-00-27-39.png",
     tags: ["React", "Node.js", "MongoDB", "REST API", "Frontend Development"],
     category: "web app",
-    github: "https://github.com/Amanw-25/VitalLink", 
-    link: "https://vitals-link.vercel.app/", 
+    github: "https://github.com/Amanw-25/VitalLink",
+    link: "https://vitals-link.vercel.app/",
   },
   {
     id: 3,
@@ -378,6 +420,4 @@ export const projects = [
     github: "https://github.com/Amanw-25/InnovationCarnival-3.0",
     link: "https://innovationcarnival.in/",
   },
-
-  
 ];
