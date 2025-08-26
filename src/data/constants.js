@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a passionate and innovative developer dedicated to crafting efficient and impactful solutions. With a strong foundation in computer science and a zeal for sustainability, I aim to bridge the gap between technology and real-world challenges.",
   github: "https://github.com/Amanw-25",
-  resume:"Resume - https://drive.google.com/file/d/1ULr3aAQxJE25hfL-Rx4gzz6ly3WzNVMY/view?usp=sharing",
+  resume:"https://drive.google.com/file/d/1ULr3aAQxJE25hfL-Rx4gzz6ly3WzNVMY/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/amanwairagkar/",
   leetcode: "https://leetcode.com/u/amanw-25/",
   // twitter: null, // No Twitter details in your resume
@@ -421,5 +421,6 @@ export const projects = [
     link: "https://innovationcarnival.in/",
   },
 ];
+
 
 
